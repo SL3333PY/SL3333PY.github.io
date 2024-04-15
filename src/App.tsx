@@ -24,15 +24,15 @@ function App() {
         },
         {
           name: "Portfolio",
-          description: "Peronal Portfolio",
+          description: "Peronal portfolio, a TypeScript and React-based web application designed to showcase professional skills, projects, and resume.",
           image: "Portfolio.png",
           labels: ["Typescript", "React", "Three.js"]
         },
         {
-            name: "Project 3",
-            description: "Description of Project 3",
-            image: "url_to_image",
-            labels: ["Python", "React", "MySQL"]
+            name: "Sky View",
+            description: "A tool enables location-based coordinate searches, dynamic star visualization, and detailed constellation information display, using complex astronomical algorithms for accuracy.",
+            image: "Sky View.png",
+            labels: ["Python", "MySQL", "wxPython"]
           }
         // More projects
       ];
