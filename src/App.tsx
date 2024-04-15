@@ -38,7 +38,7 @@ function App() {
       ];
 
     return (
-        <Router basename="my_portfolio">
+        <Router>
             <div>
                 <NavBar />
                 <Routes>
