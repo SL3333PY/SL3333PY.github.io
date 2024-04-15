@@ -12,13 +12,13 @@ function App() {
     const github = "https://github.com/SL3333PY";
     const linkedin = "https://www.linkedin.com/in/jin-ru-hsieh/";
     const aboutMe = "Hi. I'm Kim, a junior student majoring in Computer Science and Information Engineering (CSIE) at National Central University (NCU).";
-    const education = "TFGH, NCU";
+    const education = "TFG, NCU";
     const skills = "C++, Python, Java, x86 Assembly, MySQL, SQLite";
 
     const projects = [
         {
           name: "Auction",
-          description: "Description",
+          description: "An auction simulator in Python that utilizes sockets to establish TCP connections, allowing for up to four simultaneous users.",
           image: "Auction.png",
           labels: ["Python", "TCP", "PyQt"]
         },
@@ -26,7 +26,7 @@ function App() {
           name: "Portfolio",
           description: "Peronal Portfolio",
           image: "Portfolio.png",
-          labels: ["Typescript", "React"]
+          labels: ["Typescript", "React", "Three.js"]
         },
         {
             name: "Project 3",
