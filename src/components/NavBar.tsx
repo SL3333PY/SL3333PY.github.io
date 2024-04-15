@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/">
-        <img src="/src/assets/sleepy.svg" alt="" width="28" height="28" className="d-inline-block align-text-top"/>
+        <img src="sleepy.svg" alt="" width="28" height="28" className="d-inline-block align-text-top"/>
         <span style={{ fontFamily: 'Trebuchet MS', fontWeight: 'bold' }}>&ensp;Kim Hsieh</span>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

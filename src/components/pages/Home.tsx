@@ -51,10 +51,10 @@ const Home = ({ name, description1, description2, github, linkedin }: Props) => 
             </h2>
             <div>
               <a href={ github } target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/github-mark-white.svg" alt="GitHub" width="28" height="28" style={{ marginRight: '10px' }} />
+                <img src="github-mark-white.svg" alt="GitHub" width="28" height="28" style={{ marginRight: '10px' }} />
               </a>
               <a href={ linkedin } target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/linkedin-icon.svg" alt="LinkedIn" width="38" height="38" style={{ marginRight: '10px' }} />
+                <img src="linkedin-icon.svg" alt="LinkedIn" width="38" height="38" style={{ marginRight: '10px' }} />
               </a>
             </div>
           </div>

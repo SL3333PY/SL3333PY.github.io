@@ -19,13 +19,13 @@ function App() {
         {
           name: "Auction",
           description: "Description",
-          image: "/src/assets/Auction.png",
+          image: "Auction.png",
           labels: ["Python", "TCP", "PyQt"]
         },
         {
           name: "Portfolio",
           description: "Peronal Portfolio",
-          image: "/src/assets/Portfolio.png",
+          image: "Portfolio.png",
           labels: ["Typescript", "React"]
         },
         {
@@ -38,7 +38,7 @@ function App() {
       ];
 
     return (
-        <Router>
+        <Router basename='/'>
             <div>
                 <NavBar />
                 <Routes>
